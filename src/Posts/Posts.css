@@ -1,0 +1,160 @@
+#postregioncontainer{
+    padding-top: 880px;
+}
+
+
+#postcontainer{
+    width: 466px;
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+    margin-top: -1630px;
+    display: flex;
+    margin-left: 442px;
+    z-index: 0;
+
+    
+}
+
+#postprofilecontents{
+    height: 72px;
+    width: 466px;
+    background-color: rgb(255, 255, 255);
+
+    
+}
+#postprofileimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 0px;
+    margin-top: 15px;
+
+}
+#postprofiledetails{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: -412px;
+    margin-top: -20px;
+    position: relative;
+}
+
+
+#postname1{
+    font-weight: 600;
+    margin-top: 35px;
+    font-size: 14px;
+}
+
+#location{
+    margin-top: -20px;
+    font-size: 14px;
+    padding-top: 8px;
+}
+#postimage{
+    margin-top: 70px;
+    width: 466px;
+    height: 525px;
+    background-color: white;
+    position: absolute;
+}
+
+#post1{
+    width: 466px;
+    height: 525px;
+    margin-top: 30px;
+}
+
+
+#lcs{
+    display: flex;
+    margin-left: -146px;
+
+}
+
+#lcs2{
+    margin-right: 200px;
+}
+#lcslogo{
+    width: 20px;
+    height: 20px;
+    margin-left:20px;
+    margin-top: 650px;
+  
+}
+
+#likeno{
+
+    margin-top: 685px;
+    margin-left: -100px;
+    font-weight: bold;
+    
+}
+#namecaption{
+    display: flex;
+    flex-direction: row;
+    margin-top: 700px;
+    font-weight: 18px;
+
+}
+
+
+#name{
+    margin-left: -75px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 17px;
+
+}
+
+#caption{
+    margin-left: 5px;
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 17px;
+
+}
+#postviewcomments{
+    margin-left: -200px;
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 745px;
+    color: grey;
+
+
+}
+
+
+#postusername{
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    margin-top: 770px;
+    margin-left: -155px;
+}
+#postusercommentname{
+    margin-left: -105px;
+    color: black;
+    font-size: 13px;
+    padding-top: 5px;
+    margin-top: -40px;
+}
+
+#addcomment{
+    margin-top: -22px;
+    margin-left: -155px;
+    border: none;
+}
+#addcomment:focus{
+    outline: none;
+}
+
+
+
+@media (max-width:480px){
+    #postcontainer{
+      margin-left: 20px;
+      width: 100%;
+
+    }
+}

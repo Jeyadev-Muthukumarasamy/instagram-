@@ -1,0 +1,52 @@
+body{
+  flex-grow: 1;
+   
+    max-height: 3000px;
+    overflow-y: auto;
+}
+
+#grid-container {
+    display: flex;
+     /* Hide any overflow from the sidebar */
+    max-height: 3000px;
+    overflow-y: auto;
+    
+  }
+  
+  #fixed-sidebar {
+   /* position: relative; */
+    top: 0;
+    bottom: 0;
+    width: 260px; /* Adjust the width as needed */
+    background-color: #fff; /* Set the background color for the fixed sidebar */
+    border-right: 1px solid #ccc; /* Add a border to separate it from the scrollable content */
+    
+
+  }
+
+  #story{
+    /* position: absolute; */
+    max-height: 100vh;
+    overflow-y: auto;
+  }
+  #scrollingcontent{
+    flex-grow: 2; 
+  overflow-y: auto; 
+  /* position: absolute; */
+  
+  }
+
+
+
+
+  #rightsidebar{
+    
+  }
+
+  #story{
+    /* position: relative; */
+  }
+
+
+
+  

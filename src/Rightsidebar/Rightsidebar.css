@@ -1,0 +1,73 @@
+/* Add these styles to your CSS file */
+#rightsidebar {
+    background-color: rgb(255, 255, 255);
+    width: 412px;
+    height: 900px;
+    margin-left: 1017px;
+    margin-top: -178px;
+}
+
+
+#sidebarright{
+    /* box-shadow: 3px 3px 3px 2px gray; */
+    height: 100%;
+
+}
+
+#proimage{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+#rsbprofiles{
+    margin-top: 60px;
+    margin-left: 40px;
+    position: relative;
+}
+#sidebarright{
+    display: flex;
+    flex-direction: row;
+}
+#profileusername{
+    font-weight: bold;
+    font-size: 16px;
+}
+#profilename{
+    font-size: 14px;
+}
+
+#switch{
+    font-weight: bold;
+    color: #139DF7;
+    margin-top: 60px;
+    position: absolute;
+    margin-left: 40px;
+}
+
+#suggestionflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#profilesuggested{
+    margin-left: -265px;
+    padding-top: 140px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#profileseeall{
+    margin-right:-90px;
+    padding-top: 140px;
+    font-size: 15px;
+    font-weight: 500;
+
+
+
+}
+#sb3{
+    margin-top: 300px;
+}
