@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Links = () => {
   return (
     <div>
-      <div id="appcontainer">
+      <div id="appcontaines">
         
       </div>
     </div>
